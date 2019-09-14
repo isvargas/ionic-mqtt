@@ -7,11 +7,11 @@ O Broker utilizado neste exemplo foi o Mosquitto 1.6
 Atenção: Aplicações hibridas se utilizam de WebSockets para se conectar a servidores TCP. Portanto, é necessário que seu Broker MQTT 
 esteja configurado para aceitar esse tipo de conexão.
 
-Para configura WebSockets no Mosquitto, adicione as seguintes linhas no mosquitto.conf:
+Para configurar WebSockets no Mosquitto, adicione as seguintes linhas no mosquitto.conf:
 
-listener 1883
-listener 9001
-protocol websockets
+listener 1883<br>
+listener 9001<br>
+protocol websockets<br>
 
 A seguir, reinicie o Mosquitto. Se nao pegar as configurações, execute informando a localização do arquivo. Por exemplo:
 
