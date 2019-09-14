@@ -32,7 +32,7 @@ Obs 2: O suporte a WebSocket foi implantado no Mosquitto a partir da versar 1.5.
 
 
 export const MQTT_SERVICE_OPTIONS: IMqttServiceOptions = {
-  hostname: '192.168.8.102',
+  hostname: '127.0.0.1',
   port: 9001,
   path: '/mqtt'
 };
