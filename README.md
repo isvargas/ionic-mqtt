@@ -20,8 +20,11 @@ A seguir, reinicie o Mosquitto. Se nao pegar as configurações, execute informa
 Obs: O suporte a WebSocket foi implantado no Mosquitto a partir da versão 1.5.
 
 Os arquivos aqui que devem ser observados são:
-src/app.module.ts - Configuracao o ngx-mqtt
-home.page.ts - Implatação e funções se envio e recebimento de mensagens
-home.page.html - Interface gráfica básica
+
+src/app/app.module.ts - Configuracao o ngx-mqtt
+
+src/app/home/home.page.ts - Implatação e funções se envio e recebimento de mensagens
+
+src/app/home/home.page.html - Interface gráfica básica
 
 
