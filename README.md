@@ -9,9 +9,9 @@ esteja configurado para aceitar esse tipo de conexão.
 
 Para configurar WebSockets no Mosquitto, adicione as seguintes linhas no mosquitto.conf:
 
-listener 1883<br>
-listener 9001<br>
-protocol websockets<br>
+<i>listener 1883</i><br>
+<i>listener 9001</i><br>
+<i>protocol websockets</i><br>
 
 A seguir, reinicie o Mosquitto. Se nao pegar as configurações, execute informando a localização do arquivo. Por exemplo:
 
@@ -19,12 +19,10 @@ A seguir, reinicie o Mosquitto. Se nao pegar as configurações, execute informa
 
 Obs: O suporte a WebSocket foi implantado no Mosquitto a partir da versão 1.5.
 
-Os arquivos aqui que devem ser observados são:
+Os arquivos aqui que devem ser observados são:<br><br>
 
-src/app/app.module.ts - Configuracao o ngx-mqtt
-
-src/app/home/home.page.ts - Implatação e funções se envio e recebimento de mensagens
-
-src/app/home/home.page.html - Interface gráfica básica
+<u>src/app/app.module.ts</u> - Configuracao o ngx-mqtt<br>
+<u>src/app/home/home.page.ts</u> - Implatação e funções se envio e recebimento de mensagens<br>
+<u>src/app/home/home.page.html</u> - Interface gráfica básica<br>
 
 
