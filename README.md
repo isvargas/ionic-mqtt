@@ -2,7 +2,7 @@
 Exemplo de um cliente MQTT com Ionic
 
 Exemplo de como enviar e receber mensagens de um MQTT Broker através de um app desenvolvido com Ionic.
-O Broker utilizado neste exemplo foi o Mosquitto 1.6
+O Broker utilizado neste exemplo foi o Mosquitto 1.6.4, para Windows 64 bits.
 
 Atenção: Aplicações hibridas se utilizam de WebSockets para se conectar a servidores TCP. Portanto, é necessário que seu Broker MQTT 
 esteja configurado para aceitar esse tipo de conexão.
@@ -20,8 +20,8 @@ A seguir, reinicie o Mosquitto. Se nao pegar as configurações, execute informa
 Obs: O suporte a WebSocket foi implantado no Mosquitto a partir da versão 1.5.
 
 Os arquivos aqui que devem ser observados são:<br>
-<b>src/app/app.module.ts</b> - Configuracao o ngx-mqtt<br>
-<b>src/app/home/home.page.ts</b> - Implatação e funções se envio e recebimento de mensagens<br>
-<b>src/app/home/home.page.html</b> - Interface gráfica básica<br>
+<b>src/app/app.module.ts</b> - Configuração do ngx-mqtt.<br>
+<b>src/app/home/home.page.ts</b> - Implatação e funções se envio e recebimento de mensagens.<br>
+<b>src/app/home/home.page.html</b> - Interface gráfica básica.<br>
 
 
