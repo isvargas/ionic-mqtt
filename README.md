@@ -1,6 +1,4 @@
 # ionic-mqtt
-Exemplo de um cliente MQTT com Ionic
-
 Exemplo de como enviar e receber mensagens de um MQTT Broker através de um app desenvolvido com Ionic.
 O Broker utilizado neste exemplo foi o Mosquitto 1.6.4, para Windows 64 bits.
 
